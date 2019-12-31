@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://szqcuckoo.github.io</id>
-    <title>Gridea</title>
-    <updated>2019-12-31T07:11:27.150Z</updated>
+    <title>Karmal</title>
+    <updated>2019-12-31T07:31:49.190Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://szqcuckoo.github.io"/>
     <link rel="self" href="https://szqcuckoo.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>有匪君子，如切如磋，如琢如磨。</subtitle>
     <logo>https://szqcuckoo.github.io/images/avatar.png</logo>
     <icon>https://szqcuckoo.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, Gridea</rights>
+    <rights>All rights reserved 2019, Karmal</rights>
     <entry>
         <title type="html"><![CDATA[Joplin翻车]]></title>
         <id>https://szqcuckoo.github.io/post/joplin-fan-che</id>
