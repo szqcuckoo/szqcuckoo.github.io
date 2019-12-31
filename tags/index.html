@@ -1,138 +1,274 @@
-<html>
-  <head>
-    
-<meta charset="utf-8" >
 
-<title>Karmal</title>
-<meta name="description" content="有匪君子，如切如磋，如琢如磨。">
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
+<meta HTTP-EQUIV="expires" CONTENT="0"> 
+<title>Karmal</title>	
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://szqcuckoo.github.io/favicon.ico?v=1577777610416">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://szqcuckoo.github.io/styles/main.css">
+<script type="text/javascript">
+function getCSS()
+{
+        datetoday = new Date();
+        timenow=datetoday.getTime();
+        datetoday.setTime(timenow);
+        thehour = datetoday.getHours();
 
+            display = "https://szqcuckoo.github.io/media/css/night.css";
 
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://szqcuckoo.github.io">
-        <img class="avatar" src="https://szqcuckoo.github.io/images/avatar.png?v=1577777610416" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://szqcuckoo.github.io">
-        <h1 class="site-title">Karmal</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+            display = "https://szqcuckoo.github.io/media/css/night.css";   
       
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://szqcuckoo.github.io/post/jin-hu-wan-mo" class="menu purple-link">
-            金壶万墨
-          </a>
-        
-      
-        
-          <a href="https://szqcuckoo.github.io/post/gallery" class="menu purple-link">
-            Gallery
-          </a>
-        
-      
-        
-          <a href="https://szqcuckoo.github.io/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
+            display = "https://szqcuckoo.github.io/media/css/day.css";
 
-
-        <div class="content-container">
-          
-          <div class="tags-container">
-            
-              <a class="tag" href="https://szqcuckoo.github.io/tag/WAQ3io1hs">Gridea</a>
-            
-          </div>
-
-        </div>
-
-        <div class="site-footer">
-  <div class="slogan">有匪君子，如切如磋，如琢如磨。</div>
-  <div class="social-container">
-    
+            display = "https://szqcuckoo.github.io/media/css/day.css";
       
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://szqcuckoo.github.io/atom.xml" target="_blank">RSS</a>
-</div>
 
+var css = '<';
+        css+='link rel="stylesheet" href='+display+' \/';
+        css+='>';
+        document.write(css);
+}
+</script>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+<link href="https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css" rel="stylesheet" />
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<script type='text/javascript' src='https://szqcuckoo.github.io/media/scripts/script.js'></script>
+<link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
+  <script src="https://cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script>wow=new WOW({boxClass:'wow',animateClass:'animated',offset:0,mobile:true,live:true});wow.init();</script>
 
-      </div>
-      <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script type="text/javascript">
+window.onload=getCSS();
 </script>
 
 
+</head>
+<body class="post-template-default single single-post postid-70 single-format-standard">
+    <div id="wrapper">
+
+			<header id="header" class="site-header" >
+			<div class="site-branding">
+									<h1 class="site-title"><a href="https://szqcuckoo.github.io" rel="home">Karmal</a></h1>
+										
+					<h2 class="site-description">有匪君子，如切如磋，如琢如磨。</h2>
+										
+							</div>
+			<nav id="nav-wrapper">
+				<div class="container">
+					<div class="nav-toggle">
+						<div class="bars">
+							<div class="bar"></div>
+							<div class="bar"></div>
+							<div class="bar"></div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<ul class="dove">
+		 
+     			
+<li>
+	 
+	<a  href="/"> 首页</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="/archives"> 归档</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="/tags"> 标签</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="https://szqcuckoo.github.io/post/jin-hu-wan-mo"> 金壶万墨</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="https://szqcuckoo.github.io/post/gallery"> Gallery</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="https://szqcuckoo.github.io/post/about"> 关于</a></li>
+	
+    
+
+</ul>
+</li>		
+		
+</ul>				</div>
+			</nav>
+
+<div class="jingge">
 
 
-    </div>
-  </body>
+    
+
+    
+			
+<a  href="https://github.com/szqcuckoo" target="_blank" ><i class="iconfont icon-github"></i></a>
+ 
+    
+			
+<a  href="https://www.zhihu.com/people/slkt/activities" target="_blank" ><i class="iconfont icon-zhihu"></i></a>
+ 
+    
+
+    
+
+    
+
+    
+			
+<a  href="https://www.douban.com/people/156848848/" target="_blank" ><i class="iconfont icon-douban"></i></a>
+ 
+    
+
+    
+
+    
+
+    
+
+    
+        </header>
+
+		<div id="content" class="container">
+			<div class="row">
+	<div class="col-md-8 site-main">
+	<script type="text/javascript">
+      $(document).ready(function() {
+         var tags_a = $("#tags a");
+         tags_a.each(function(){
+             var x = 2;
+             var y = 0;
+             var rand = parseInt(Math.random() * (x - y + 1) + y);
+             $(this).addClass("tags"+rand);
+          });
+      })   
+   </script>					
+
+	 
+
+
+		 <div class="w95" id="tags">
+			 
+        <a href='https://szqcuckoo.github.io/tag/WCpuavpZ8'>学习</a>
+         
+        <a href='https://szqcuckoo.github.io/tag/6dzT39SSo'>翻车</a>
+         
+        <a href='https://szqcuckoo.github.io/tag/WAQ3io1hs'>Gridea</a>
+        
+    </div>		 
+
+
+
+		
+		
+			</div>
+        
+
+
+			</div>
+		</div>
+
+		
+		 	<footer id="colophon" class="site-footer">
+
+			<div class="container">
+	
+				<div class="copyright">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a><br>Theme:   <a href="https://github.com/shanbufun/gridea-theme-pan" target="_blank" title="Pan"><span>Pan</span></a>.  by <a href="https://shanbu.fun/" target="_blank"  title="山卜方" >Shanbufun</a></div>		
+			</div>
+		
+		</footer>
+
+</div>
+
+<script src="https://cdn.bootcss.com/fitvids/1.2.0/jquery.fitvids.min.js"></script>
+<script type='text/javascript' src='https://szqcuckoo.github.io/media/scripts/marlin-scripts.js'></script>
+ <script src="//tokinx.github.io/lately/lately.min.js"></script>
+  <script>jQuery(document).ready(function(){$.lately({'target':'.lately-a,.lately-b,.lately-c'})});</script>
+  <style type="text/css">a.back_to_top {
+    text-decoration: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    background: #f0f0f0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    transition-duration: .5s;
+    transition-propety: background-color;
+    display: none;
+}
+
+a.back_to_top span {
+    color: #888;
+}
+
+a.back_to_top:hover {
+    cursor: pointer;
+    background: #dfdfdf;
+}
+
+a.back_to_top:hover span {
+    color: #555;
+}
+
+@media print, screen and (max-width: 580px) {
+    .back_to_top {
+        display: none !important;
+    }
+}
+
+
+
+</style><a id="back_to_top" href="#" class="back_to_top"><span><i class="iconfont icon-xiangshang"></i></span>
+</a>
+
+
+<script>$(document).ready((function(_this) {
+  return function() {
+    var bt;
+    bt = $('#back_to_top');
+    if ($(document).width() > 480) {
+      $(window).scroll(function() {
+        var st;
+        st = $(window).scrollTop();
+        if (st > 30) {
+          return bt.css('display', 'block');
+        } else {
+          return bt.css('display', 'none');
+        }
+      });
+      return bt.click(function() {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 800);
+        return false;
+      });
+    }
+  };
+})(this));
+</script>
+
+</body>
 </html>
