@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://szqcuckoo.github.io</id>
     <title>Karmal</title>
-    <updated>2019-12-31T08:35:17.137Z</updated>
+    <updated>2020-01-11T11:17:18.991Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://szqcuckoo.github.io"/>
     <link rel="self" href="https://szqcuckoo.github.io/atom.xml"/>
     <subtitle>有匪君子，如切如磋，如琢如磨。</subtitle>
     <logo>https://szqcuckoo.github.io/images/avatar.png</logo>
     <icon>https://szqcuckoo.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, Karmal</rights>
+    <rights>All rights reserved 2020, Karmal</rights>
     <entry>
         <title type="html"><![CDATA[教案]]></title>
         <id>https://szqcuckoo.github.io/post/jiao-an</id>
